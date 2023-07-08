@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>vmshub</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <style>
+    body {
+      font-family: 'Geologica', sans-serif;
+    }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  
+   <body>
+
+<!--NAV-->
+    <nav>
+      <div class="menu">
+        
+        <div class="logo">
+          <a href="#">vmshub</a>
+        </div>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a class="active" href="index.html">Нүүр</a></li>
+            <li><a href="#">Цуврал</a></li>
+            <li><a href="#">Шилдэг</a></li>
+            <li><a href="#">Блог</a></li>
+            <li><a href="#">Комик</a></li>
+          </ul>
+        </div>
+
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      
+      </div>
+    </nav>
+
+<!--BODY-->
+
+<div class="greeting">
+  <h1>HELLO!</h1>
+</div>
+
+    <main>
+      <div class="poster">
+        <a href="fb.com">
+          <img src="images/arnold.jpg">
+        </a>
+        <div class="layer">
+          <a href="fb.com">
+            <h3>arnold</h3>
+            <h6>2023</h6>
+          </a>
+        </div>
+      </div>
+  
+      <div class="poster">
+        <img src="images/our-planet.jpg" alt="Movie Poster 2">
+        <div class="layer">
+          <h3>our planet</h3>
+          <h6>2023</h6>
+        </div>
+      </div>
+  
+      <div class="poster">
+        <img src="images/cosmos.jpg" alt="Movie Poster 3">
+        <div class="layer">
+          <h3>cosmos</h3>
+          <h6>2023</h6>
+        </div>
+      </div>
+  
+      <div class="poster">
+        <img src="images/stan-lee.jpg" alt="Movie Poster 1">
+        <div class="layer">
+          <h3>stan lee</h3>
+          <h6>2023</h6>
+        </div>
+      </div>
+    
+      <div class="poster">
+        <img src="images/take-care-of-maya.jpg" alt="Movie Poster 2">
+        <div class="layer">
+          <h3>take care of maya</h3>
+          <h6>2023</h6>
+        </div>
+      </div>
+    
+      <div class="poster">
+        <img src="images/what-is-woman.jpg" alt="Movie Poster 3">
+        <div class="layer">
+          <h3>what is woman</h3>
+          <h6>2023</h6>
+        </div>
+      </div>
+  
+      <div class="poster">
+          <img src="images/arnold.jpg" alt="Movie Poster 1">
+        </div>
+    
+        <div class="poster">
+          <img src="images/arnold.jpg" alt="Movie Poster 2">
+        </div>
+    
+        <div class="poster">
+          <img src="images/arnold.jpg" alt="Movie Poster 3">
+        </div>
+    
+        <div class="poster">
+          <img src="images/arnold.jpg" alt="Movie Poster 1">
+        </div>
+      
+        <div class="poster">
+          <img src="images/arnold.jpg" alt="Movie Poster 2">
+        </div>
+      
+        <div class="poster">
+          <img src="images/arnold.jpg" alt="Movie Poster 3">
+        </div>
+    </main>
+
+    </section>
+
+
+    <!--MENU TOGGLEBAR JS-->
+    <script>
+
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu(){
+        navLinks.style.right = "-200px"
+      }
+
+
+
+    </script>
+
+  </body>
+</html>
